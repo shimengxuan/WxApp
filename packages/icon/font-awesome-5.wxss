@@ -1,0 +1,51 @@
+/* Font Awesome 5 Free */
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: normal;  src: url('https://res.imtt.qq.com/cms_common/fonts/font-awesome-5/fa-solid-900.eot');
+  src: url('https://res.imtt.qq.com/cms_common/fonts/font-awesome-5/fa-solid-900.woff2') format('woff2'),
+       url('https://res.imtt.qq.com/cms_common/fonts/font-awesome-5/fa-solid-900.woff') format('woff'),
+       url('https://res.imtt.qq.com/cms_common/fonts/font-awesome-5/fa-solid-900.ttf') format('truetype')
+}
+
+.fa {
+  font-family: 'Font Awesome 5 Free';
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+
+  font-variant: normal;
+  text-transform: none;
+
+  line-height: 1em;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.fa-microphone:before {
+  content: "\f130"; 
+}
+.fa-circle:before {
+  content: "\f111"; 
+}
+
+.fa-play:before {
+  content: "\f04b"; 
+}
+.fa-pause:before {
+  content: "\f04c"; 
+}
+.fa-stop:before {
+  content: "\f04d"; 
+}
+
+.fa-times:before {
+  content: "\f00d"; 
+}
+.fa-trash-alt:before {
+  content: "\f2ed"; 
+}
